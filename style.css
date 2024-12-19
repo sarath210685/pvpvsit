@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@
     color: #333;
   }
   
-  /* Navigation Bar */
+  
   header {
     background-color: #333;
     color: #fff;
@@ -49,7 +49,7 @@
     color: #f39c12;
   }
   
-  /* Welcome Section */
+  
   .welcome-section {
     text-align: center;
     background-color: #3498db;
@@ -81,7 +81,7 @@
     background-color: #e67e22;
   }
   
-  /* About Section */
+  
   section {
     padding: 50px 20px;
   }
@@ -106,7 +106,7 @@
     margin-top: 10px;
   }
   
-  /* Courses Section */
+  
   .course-list {
     display: flex;
     justify-content: space-around;
@@ -139,7 +139,7 @@
     margin-top: 10px;
   }
   
-  /* Student Testimonials Section */
+  
   .testimonials-section {
     text-align: center;
     padding: 50px 20px;
@@ -185,7 +185,7 @@
     color: #3498db;
   }
   
-  /* Footer Section */
+  
   footer {
     text-align: center;
     padding: 20px;
@@ -198,7 +198,7 @@
     margin: 0;
   }
   
-  /* Form Styling for Possible Contact Form */
+  
   form {
     display: grid;
     gap: 20px;
@@ -229,10 +229,10 @@
     background-color: #2980b9;
   }
   
-  /* Media Queries for Responsiveness */
+  
   @media (max-width: 768px) {
     .nav-links {
-      display: none; /* Hide nav links on small screens */
+      display: none; 
     }
   
     .nav-links a {
